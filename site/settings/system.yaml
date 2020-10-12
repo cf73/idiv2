@@ -1,0 +1,8 @@
+app_key: SvV45dX1zx5KlqmwCqMUATCTpuAjGMIE
+yaml_parser: symfony
+locales:
+  en:
+    full: en_US
+    name: English
+    url: 'http://idiv2.test/'
+timezone: UTC

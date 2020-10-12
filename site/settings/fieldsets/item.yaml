@@ -1,0 +1,65 @@
+sections:
+  main:
+    display: Main
+    fields:
+      intro_movie:
+        type: video
+        display: 'Intro Movie'
+      main_content:
+        sets:
+          text:
+            display: Text
+            fields:
+              text:
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                style: sans
+                spellcheck: true
+                allow_source: true
+                allow_internal_links: true
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                semantic_elements: false
+                restrict_assets: false
+                type: bard
+                display: Text
+          image:
+            display: Image
+            fields:
+              image:
+                container: main
+                folder: /
+                restrict: false
+                type: assets
+                display: Image
+          movie:
+            display: Movie
+            fields:
+              movie:
+                type: video
+                display: Movie
+          pull_quote:
+            display: 'Pull Quote'
+            fields:
+              pull_quote:
+                type: text
+                display: 'Pull Quote'
+        type: replicator
+        display: 'Main content'
+      section:
+        max_items: 1
+        taxonomy: Sections
+        mode: tags
+        type: taxonomy
+        display: Section
+taxonomies: true
+title: Item

@@ -1,0 +1,5 @@
+taxonomies:
+  practics: practics/{slug}
+
+collections:
+  branding: /{section}/{slug}
