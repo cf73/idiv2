@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>{{title}}</h1>
+            <h3>{{description}}</h3>
+            <p>explore:</p>
+            <div class="row">
+                {{collections}}
+                    <div class="col">
+                        <h2>{{value}}</h2>
+                        <ul>{{collection from="{value}" scope="cyst"}}
+                           
+                                <li>
+                                <a href="../{{page:title}}/{{value}}/{{slug}}">{{cyst:title}}</a>
+                                </li>
+                  
+                        {{/collection}}</ul>
+                    </div>
+                {{/collections}}
+            </div>
+            
+        </div>
+    </div>
+</div>

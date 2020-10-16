@@ -1,5 +1,6 @@
-taxonomies:
-  practics: practics/{slug}
-
 collections:
-  branding: /{section}/{slug}
+  theoretics: /{section}/*/{slug}
+
+taxonomies:
+  section: /{slug}
+  template: section

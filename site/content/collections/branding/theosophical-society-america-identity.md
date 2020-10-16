@@ -47,6 +47,4 @@ main_content:
       seekers. &nbsp;</p>
 title: 'Theosophical Society America Identity'
 id: 08859fa0-55ea-4681-931f-e16fa065b671
-sections:
-  - poetics
-  - theoretics
+section: poetics

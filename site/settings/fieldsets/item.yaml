@@ -57,7 +57,7 @@ sections:
         display: 'Main content'
       section:
         max_items: 1
-        taxonomy: Sections
+        taxonomy: Section
         mode: tags
         type: taxonomy
         display: Section

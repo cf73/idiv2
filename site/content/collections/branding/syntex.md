@@ -15,5 +15,4 @@ main_content:
       - /assets/2017-04-02-07.29.28.jpg
 title: SYNTEX
 id: 71a92a3c-e5a1-4327-a7f3-30a4013162b5
-sections:
-  - practics
+section: practics
