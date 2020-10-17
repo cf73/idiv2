@@ -61,5 +61,11 @@ sections:
         mode: tags
         type: taxonomy
         display: Section
+      sub_section:
+        max_items: 1
+        taxonomy: sub_section
+        mode: tags
+        type: taxonomy
+        display: 'Sub section'
 taxonomies: true
 title: Item
