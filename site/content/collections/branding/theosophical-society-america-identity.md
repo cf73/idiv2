@@ -45,6 +45,13 @@ main_content:
       order to apply this new visual language as it unfolds in our many applications.&nbsp; Soon we will have a whole new wardrobe with a
       unified look that we hope will attract positive attention from interested
       seekers. &nbsp;</p>
+  -
+    type: image
+    photo:
+      - /assets/2017-04-02-07.30.21.jpg
+  -
+    type: pull_quote
+    pull_quote: 'So above, so below...'
 title: 'Theosophical Society America Identity'
 id: 08859fa0-55ea-4681-931f-e16fa065b671
 section: practics

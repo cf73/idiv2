@@ -1,5 +1,8 @@
 collections:
   branding: /{section}/{sub_section}/{slug}
+  posters: /{section}/{sub_section}/{slug}
+  theses: /{section}/{sub_section}/{slug}
+  lectures: /{section}/{sub_section}/{slug}
 
 taxonomies:
   section: /{slug}

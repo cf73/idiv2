@@ -1,17 +1,40 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
             {{partial:nav}}
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-10">
             <div id="main-content" class="row">
-                <div class="col-xs-12">
+                <div class="col-xs-12" style="background-color: black; height: 400px; width: 100%;">
                     {{intro_movie}}
                 </div>
-                <div class="col-md-9">
-                    {{title}}
+                <div class="col-md-8" style="background-color: beige; height: 100vh; width: 100%;">
+                    <h1>{{title}}</h1>
+                    {{ main_content }}
+
+                        {{ if type == "text" }}
+
+                            <div class="text">
+                            <div style="margin: 0 15%;">{{ text|markdown }}</div>
+                            </div>
+
+                        {{ elseif type == "pull_quote" }}
+
+                            <blockquote>{{ pull_quote }}</blockquote>
+                            <p>— {{ cite }}</p>
+
+                        {{ elseif type == "image" }}
+
+                          
+                            <img src="{{ photo }}" alt="{{ caption }}" />
+                          
+
+                        {{ /if }}
+
+                    {{ /main_content }}
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4" style="background-color: brown; height: 100vh; width: 100%;">
+                    <h4>See also</h4>
                     {{related-content}}
                 </div>
             </div>
